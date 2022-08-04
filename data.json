@@ -1,0 +1,102 @@
+{
+  "nav": [
+    { "text": "Application", "link": "/" },
+    { "text": "Documentation", "link": "/" },
+    { "text": "Pricing", "link": "/" }
+  ],
+  "companies": [
+    { "img": "/assets/images/clients-01.svg", "alt": "Facebook" },
+    { "img": "/assets/images/clients-02.svg", "alt": "Tinder" },
+    { "img": "/assets/images/clients-03.svg", "alt": "AirBNB" },
+    { "img": "/assets/images/clients-04.svg", "alt": "Microsoft" },
+    { "img": "/assets/images/clients-05.svg", "alt": "Hubspot" }
+  ],
+  "features": [
+    {
+      "img": "/assets/icons/feature-1.svg",
+      "title": "User Friendly",
+      "content": "A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design."
+    },
+    {
+      "img": "/assets/icons/feature-2.svg",
+      "title": "Generate Leads",
+      "content": "We don't offer this as part of our software but that statement is inarguably true."
+    },
+    {
+      "img": "/assets/icons/feature-3.svg",
+      "title": "Build Anything",
+      "content": "We definitely recommend that you do this, you'll feel really organized and professional."
+    },
+    {
+      "img": "/assets/icons/feature-4.svg",
+      "title": "State Variants",
+      "content": "Get intelligent autocomplete suggestions, linting, class definitions and more, all within your editor."
+    },
+    {
+      "img": "/assets/icons/feature-5.svg",
+      "title": "Component Driven",
+      "content": "We definitely recommend that you do this, you'll feel really organized and professional."
+    },
+    {
+      "img": "/assets/icons/feature-6.svg",
+      "title": "Modern Features",
+      "content": "A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design."
+    }
+  ],
+  "app": [
+    {
+      "title": "Modern features",
+      "img": "/assets/images/features-01.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.",
+      "active": true
+    },
+    {
+      "title": "Advanced features",
+      "img": "/assets/images/features-02.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident."
+    }
+  ],
+  "prices": [
+    {
+      "price": "$9",
+      "text": "Good for anyone who is self-employed and just getting started.",
+      "btn": "Get started",
+      "list": [
+        { "item": "Send 10 quotes and invoices" },
+        { "item": "Connect up to 2 bank accounts" },
+        { "item": "Track up to 15 expenses per month" },
+        { "item": "Manual payroll support" },
+        { "item": "Export up to 3 reports" }
+      ]
+    },
+    {
+      "price": "$15",
+      "text": "Perfect for small / medium sized businesses.",
+      "btn": "Get started",
+      "list": [
+        { "item": "Send 25 quotes and invoices" },
+        { "item": "Connect up to 5 bank accounts" },
+        { "item": "Track up to 50 expenses per month" },
+        { "item": "Automated payroll support" },
+        { "item": "Export up to 12 reports" }
+      ]
+    },
+    {
+      "price": "$39",
+      "text": "For even the biggest enterprise companies.",
+      "btn": "Get started",
+      "list": [
+        { "item": "Send unlimited quotes and invoices" },
+        { "item": "Connect up to 15 bank accounts" },
+        { "item": "Track up to 200 expenses per month" },
+        { "item": "Automated payroll support" },
+        { "item": "Export up to 25 reports, including TPS" }
+      ]
+    }
+  ],
+  "socials": [
+    { "icon": "/assets/icons/social-facebook.svg", "link": "/" },
+    { "icon": "/assets/icons/social-instagram.svg", "link": "/" },
+    { "icon": "/assets/icons/social-twitter.svg", "link": "/" }
+  ]
+}

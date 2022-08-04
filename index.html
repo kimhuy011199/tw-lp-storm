@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Storm - Landing template for startups</title>
+  </head>
+  <body class="bg-dark font-body leading-relaxed text-gray2">
+    <div class="app">
+      <header class="header">
+        <nav class="nav">
+          <a href="/">
+            <img class="nav-logo" src="/assets/icons/logo.svg" alt="TaxPal" />
+          </a>
+          <div>
+            <button class="md:hidden">
+              <img
+                class="h-6 w-6"
+                id="nav-btn"
+                src="/assets/icons/menu.svg"
+                alt="Navigate button"
+              />
+            </button>
+            <div>
+              <div class="nav-list-container hidden md:block">
+                <ul class="nav-list">
+                  {{#each nav}}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{link}}">{{text}}</a>
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+              <div class="backdrop hidden"></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="section intro-section">
+          <div class="container">
+            <div class="intro-content">
+              <h1 class="page-title">
+                Engage Your Visitors with a beautiful template.
+              </h1>
+              <p class="section-desc intro-desc">
+                Our landing page template works on all devices, so you only have
+                to set it up once, and get beautiful results forever.
+              </p>
+              <div class="intro-action">
+                <button class="btn btn-primary">Get started</button>
+                <button class="btn btn-outline">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="company-section">
+          <div class="container">
+            <ul class="company-list">
+              {{#each companies}}
+              <li class="company-item">
+                <img src="{{img}}" alt="{{alt}}" />
+              </li>
+              {{/each}}
+            </ul>
+          </div>
+        </section>
+        <section class="section features-section">
+          <div class="container">
+            <ul class="features-list">
+              {{#each features}}
+              <li class="features-item" data-aos="zoom-in">
+                <img class="features-icon" src="{{img}}" alt="{{title}}" />
+                <h3 class="features-title">{{title}}</h3>
+                <p class="features-text">{{content}}</p>
+              </li>
+              {{/each}}
+            </ul>
+          </div>
+        </section>
+        <section class="section web-section">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">Create stunning web experiences</h2>
+            </div>
+            <img
+              class="web-img"
+              src="/assets/images/hero-image.png"
+              alt="hero"
+            />
+          </div>
+        </section>
+        <section class="section app-section">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">The complex made simple</h2>
+              <p class="section-desc prices-desc">
+                From rough design files, to powerful products. Turn your ideas
+                into reality in seconds
+              </p>
+            </div>
+            <div class="app-body">
+              <ul class="app-list">
+                {{#each app}}
+                <li class="app-item" data-aos="fade-up">
+                  <div class="app-img-wrapper">
+                    <img src="{{img}}" alt="features" />
+                  </div>
+                  <div class="app-item-content {{#if active}} odd {{/if}}">
+                    <h3 class="app-item-heading">{{title}}</h3>
+                    <p class="app-item-text">{{text}}</p>
+                  </div>
+                </li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section prices-section">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">Storm template pricing</h2>
+              <p class="section-desc prices-desc">
+                It doesn't matter what size your business is, our software won't
+                work well.
+              </p>
+            </div>
+            <div class="prices-body">
+              <ul class="prices-list">
+                {{#each prices}}
+                <li
+                  class="prices-item {{#if active}} active {{/if}}"
+                  data-aos="zoom-in"
+                >
+                  <span class="prices-price">{{price}}</span>
+                  <p class="prices-text">{{text}}</p>
+                  <ul class="prices-sub-list">
+                    {{#each list}}
+                    <li class="flex">
+                      <img
+                        class="prices-check"
+                        src="/assets/icons/check.svg"
+                        alt="check"
+                      />
+                      <span class="ml-3 text-sm">{{item}}</span>
+                    </li>
+                    {{/each}}
+                  </ul>
+                  <button class="btn btn-primary">{{btn}}</button>
+                </li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section cta-section" data-aos="fade-up">
+          <div class="container">
+            <h2 class="section-title">Ready to get started?</h2>
+            <p class="section-desc cta-desc">
+              It's time to take control of your books. Buy our software so you
+              can feel like you're doing something productive.
+            </p>
+            <button class="btn btn-primary">Start free trial</button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-item">
+          <a href="/">
+            <img
+              class="footer-logo"
+              src="/assets/icons/logo.svg"
+              alt="TaxPal"
+            />
+          </a>
+          <ul class="footer-nav">
+            {{#each socials}}
+            <li>
+              <a href="{{link}}">
+                <img src="{{icon}}" alt="{{link}}" />
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="footer-item">
+          <span class="footer-copyright">
+            Copyright © 2022 Storm. All rights reserved.
+          </span>
+          <ul class="footer-nav">
+            {{#each nav}}
+            <li>
+              <a href="{{link}}">{{text}}</a>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
