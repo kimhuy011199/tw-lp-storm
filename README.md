@@ -2,7 +2,7 @@
 
 Live: https://tw-lp-storm.netlify.app/
 
-![preview](tw-lp-storm.jpg)
+![preview](public/tw-lp-storm.jpg)
 
 ## Highlight
 
